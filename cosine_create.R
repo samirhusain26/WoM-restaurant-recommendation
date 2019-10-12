@@ -13,8 +13,8 @@ library(SnowballC)
 library(shinyWidgets)
 
 getwd()
-setwd("D:/Purdue Onedrive/OneDrive - purdue.edu/BAIM/Fall 1/R for analytics/R-project/Final")
 
+# The raw files can be downloaded from https://www.kaggle.com/yelp-dataset/yelp-dataset
 #Read files
 business_raw=read.csv("business.csv",stringsAsFactors = FALSE)
 user_raw=read.csv("user.csv",stringsAsFactors = FALSE)

@@ -1,4 +1,4 @@
-# amaze-U-restaurant-recommendation
+# WoM-restaurant-recommendation
 This project is for MGMT 590-Using R for Analytics at Krannert School of Management, 
 developed by Team Revengers: Arun Ramakrishnan, Juily Vasandani, Maharshi Dutta, Samir Husain,  Yizhu Liao. 
 

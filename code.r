@@ -98,7 +98,7 @@ ui <- navbarPage (id="inTabset",
                         
                       ),
                       mainPanel(
-                        h4("Restaurants in reviewed by user (in Madison, WI"),
+                        h4("Restaurants in reviewed by user (in Madison, WI)"),
                         dataTableOutput("already_out"),
                         br()
                       )

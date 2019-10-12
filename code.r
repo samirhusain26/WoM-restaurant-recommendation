@@ -32,7 +32,7 @@ ui <- navbarPage (id="inTabset",
                   theme = shinytheme("paper"),
                   title = div(img(src ="https://www.purdue.edu/discoverypark/resources/toolkit/files/logo/purdue/Purdue-Sig-Black-Gold-rgb.png", width = "150px", height = "48px", style="margin-top: -14px; margin-right:-14px;margin-left:-14px", height = 50)),
                   tabPanel(
-                    'Home',
+                    'Login',
                     tags$style(HTML("
                   #login {
                   margin: auto;
@@ -56,7 +56,7 @@ ui <- navbarPage (id="inTabset",
                     )
                     ),
                     div(id = "login",
-                        autocomplete_input("user", h5('Username'), user_filter$username, max_options = 1000),
+                        autocomplete_input("user", h5('Username'), placeholder = "Type a name and select",user_filter$username, max_options = 100),
                         textInput(inputId = 'pass',label = h5('Password'),placeholder = "Not required for demo"),
                         br(),
                         actionButton("Login", "Log in")
@@ -65,7 +65,7 @@ ui <- navbarPage (id="inTabset",
                       type="text/css", "#login {font-size:10px;   text-align: left;position:absolute;top: 40%;left: 50%;margin-top: -100px;margin-left: -150px;}"
                     )),
                   tabPanel(
-                    'App',
+                    'Profile',
                     sidebarLayout(
                       sidebarPanel(
                         width = 3,
@@ -87,7 +87,7 @@ ui <- navbarPage (id="inTabset",
                                  }"
                         )
                         ),
-                        h6('Total number of Reviews:'),
+                        h6('Number of total reviews:'),
                         textOutput(outputId = 'totalreview'),
                         tags$head(tags$style("#totalreview{color: black;
                                  font-size: 20px;
@@ -98,7 +98,7 @@ ui <- navbarPage (id="inTabset",
                         
                       ),
                       mainPanel(
-                        h4("Restaurants reviewed by user"),
+                        h4("Restaurants in reviewed by user (in Madison, WI"),
                         dataTableOutput("already_out"),
                         br()
                       )
@@ -232,7 +232,7 @@ server <- function(input, output,session) {
     showModal(modalDialog("Succesful", 
                           title ="Login", easyClose = TRUE, fade = FALSE),
               updateTabsetPanel(session, "inTabset",
-                                selected = "App")
+                                selected = "Profile")
               
     )
     

@@ -6,6 +6,9 @@ This is a restaurant recommendation system which finds closest restaurant based 
 WOM Restaurant Recommendation System provides personalized recommendations to customers based on similarities 
 from Yelp reviews for restaurants in order to increase customer satisfaction and expand customer base.  
 
+Shiny app - https://restaurantrecommendation.shinyapps.io/application/
+Presentation video - https://youtu.be/M0jvTXESfaQ
+
 
 References
 

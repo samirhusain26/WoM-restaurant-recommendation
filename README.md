@@ -7,6 +7,7 @@ WOM Restaurant Recommendation System provides personalized recommendations to cu
 from Yelp reviews for restaurants in order to increase customer satisfaction and expand customer base.  
 
 Shiny app - https://restaurantrecommendation.shinyapps.io/application/
+
 Presentation video - https://youtu.be/M0jvTXESfaQ
 
 

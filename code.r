@@ -116,7 +116,7 @@ ui <- navbarPage (id="inTabset",
                       div(tags$img(src='https://media.licdn.com/dms/image/C4D03AQHlhGpaCUmsnA/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=XAnCCaPrx75XVOhRZ9nJ0ytLa2QY6x8k4mdX1jqA_Jc', width=180, height=180),style="width: 20%;text-align: center;display: inline-block;float: left;"),
                       style="text-align: center;width: 100%; height: 30px; margin-left: auto; margin-right: auto; margin-top:20px; border-radius: 20px;"),
                     div(
-                      div(h5("Arun K"),style="width: 15%; margin-left:2.5%; margin-right: 2.5%; text-align: center;display: inline-block;float:left;border-radius: 40px "),
+                      div(h5("Arun R"),style="width: 15%; margin-left:2.5%; margin-right: 2.5%; text-align: center;display: inline-block;float:left;border-radius: 40px "),
                       div(h5("Juily V"),style="width: 15%;text-align: center;display: inline-block;float: left;border-radius: 40px;margin-left:2.5%; margin-right: 2.5%"),
                       div(h5("Yizhu L"),style="width: 15%;text-align: center;display: inline-block;float: left;border-radius: 40px;margin-left:2.5%; margin-right: 2.5%;"),
                       div(h5("Samir H"),style="width: 15%;text-align: center;display: inline-block;float: left;border-radius: 40px;margin-left:2.5%; margin-right: 2.5%;"),
